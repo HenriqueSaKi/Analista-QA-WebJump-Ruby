@@ -7,11 +7,11 @@ Quando('eu acesso o iframe e clico nos botões') do
         sleep(0.5)
         find(:xpath,'//p//button[@id="btn_link"]').click
     end
-    sleep(5)
+    sleep(1)
 end
 
-Então('eu verifico se estão visíveis.') do
-    within_frame(:xpath, '//iframe') do
+Então('eu verifico se estão visíveis no iframe.') do
+    within_frame(:xpath, '//iframe[@src="buttons.html"]') do
         page.has_no_button?('//p//button[@id="btn_one"]')
         page.has_no_button?('//p//button[@id="btn_two"]')
         page.has_no_button?('//p//button[@id="btn_link"]')
