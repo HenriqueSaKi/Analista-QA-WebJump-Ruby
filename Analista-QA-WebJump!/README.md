@@ -22,12 +22,8 @@
 
 ### Sobre o Projeto :book:
 
-<p>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O projeto teve como objetivo principal apresentar à empresa WebJump, meus conhecimentos em Testes de Software Automatizados.
-</p>
-<p>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No entanto, com ele foi possível aprender e me desenvolver mais nessa área, principalmente, pois eu não possuía conhecimentos avancados na linguagem de programação Ruby e os frameworks (Cucumber e Capybara) utilizados nesse projeto.
-</p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O projeto teve como objetivo principal apresentar à empresa WebJump, meus conhecimentos em Testes de Software Automatizados.</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No entanto, com ele foi possível aprender e me desenvolver mais nessa área, principalmente, pois eu não possuía conhecimentos avancados na linguagem de programação Ruby e os frameworks (Cucumber e Capybara) utilizados nesse projeto.
 
 ### Cenários de Teste :cucumber:
 
@@ -49,26 +45,26 @@
 - [Chromewebdriver](https://chromedriver.chromium.org/downloads)
 - Conteúdo deste repositório
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Primeiramente, faça o download do Ruby e instale o seguindo seus passos de instalação.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Feito isso, será necessário realizar o download do chromewebdriver. O mesmo deverá ser movido para a pasta 'Windows' do seu disco local C.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Primeiramente, faça o download do Ruby e instale o seguindo seus passos de instalação.</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Feito isso, será necessário realizar o download do chromewebdriver. O mesmo deverá ser movido para a pasta 'Windows' do seu disco local C.</br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Após realizado o download dos arquivos do repositório, para rodar os cenários de testes no **Windows**, será necessário seguir os seguintes passos:</br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1- Digite o comando ```win``` + ```r```
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2- Busque por ```cmd```
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3- No prompt de comando, digite o seguinte comando: ```cd <local do arquivo - Acesse a pasta mãe>```
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ex: ```cd C:\Users\satos\Documents\Analista-QA-WebJump!```
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Feito isso, será possível verificar que você está utilizando o cmd dentro da pasta que contém o programa e permitirá que você envie alguns comandos para a sua pasta atual.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4- Ainda no prompt de comando, envie o comando ```bundle install```.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1- Digite o comando ```win``` + ```r```</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2- Busque por ```cmd```</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3- No prompt de comando, digite o seguinte comando: ```cd <local do arquivo - Acesse a pasta mãe>```</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ex: ```cd C:\Users\satos\Documents\Analista-QA-WebJump!```</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Feito isso, será possível verificar que você está utilizando o cmd dentro da pasta que contém o programa e permitirá que você envie alguns comandos para a sua pasta atual.</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4- Ainda no prompt de comando, envie o comando ```bundle install```.</br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Este comando será responsável por instalar todos os **resquisitos** para rodar os cenários de testes.
 
 ### Rodando os testes :arrow_forward:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para rodar os testes, basta seguir até o passo 3 de configuração do ambiente e enviar o comando ```cucumber```.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Isso fará com que sejam executados todos os cenários de testes.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Caso haja a necessidade de rodá-los individulmente, basta enviar o comando acima e adicionar a tag do seu respectivo cenário.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;```cucumber -t@botao_simples``` *(Cenário 1)*
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;```cucumber -t@botao_iframe``` *(Cenário 2)*
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;```cucumber -t@ultimo_cenario``` *(Cenário 3)*
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para rodar os testes, basta seguir até o passo 3 de configuração do ambiente e enviar o comando ```cucumber```.</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Isso fará com que sejam executados todos os cenários de testes.</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Caso haja a necessidade de rodá-los individulmente, basta enviar o comando acima e adicionar a tag do seu respectivo cenário.</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;```cucumber -t@botao_simples``` *(Cenário 1)*</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;```cucumber -t@botao_iframe``` *(Cenário 2)*</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;```cucumber -t@ultimo_cenario``` *(Cenário 3)*</br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O resultado dos testes será apresentado da seguinte forma:
 
 <img src='./result.JPG' align='center'>
@@ -81,13 +77,13 @@
 
 ### Dificuldades :muscle:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Durante o desenvolvimento dos cenários de testes, verifiquei que quando as sentenças criadas para testes são iguais, as mesmas podem ocasionar um conflito no resultado dos testes, não sendo necessariamente erro na aplicação testada.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Durante o desenvolvimento dos cenários de testes, verifiquei que quando as sentenças criadas para testes são iguais, as mesmas podem ocasionar um conflito no resultado dos testes, não sendo necessariamente erro na aplicação testada.</br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Outro problema encontrado, foi no detalhamento do xpath do iframe. Quando o mesmo foi declarado apenas como ```"//iframe"```, foi detectado no site, dois campos que continham iframes diferentes. Logo, para corrigir o problema, o iframe foi descrito para encontrar o campo esperado.
 
 
 ### Referências :link:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Ruby Download]()
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Chromewebdriver]()
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Documentação do Capybara](https://rubydoc.info/github/jnicklas/capybara/master/Capybara/Node/Finders)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Ruby Download](https://rubyinstaller.org/downloads/)</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Chromewebdriver](https://chromedriver.chromium.org/downloads)</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Documentação do Capybara](https://rubydoc.info/github/jnicklas/capybara/master/Capybara/Node/Finders)</br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Repositório do teste](https://github.com/HenriqueSaKi/Analista-QA-WebJump-Ruby)
