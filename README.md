@@ -45,7 +45,7 @@
 - [Chromewebdriver](https://chromedriver.chromium.org/downloads)
 - Conteúdo deste repositório
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Primeiramente, faça o download do Ruby e instale o seguindo seus passos de instalação.</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Primeiramente, faça o download do Ruby e instale-o seguindo seus passos de instalação.</br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Feito isso, será necessário realizar o download do chromewebdriver. O mesmo deverá ser movido para a pasta 'Windows' do seu disco local C.</br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Após realizado o download dos arquivos do repositório, para rodar os cenários de testes no **Windows**, será necessário seguir os seguintes passos:</br>
 
