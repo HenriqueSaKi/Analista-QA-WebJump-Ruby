@@ -67,13 +67,13 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;```cucumber -t@ultimo_cenario``` *(Cenário 3)*</br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O resultado dos testes será apresentado da seguinte forma:
 
-<img src='./result.JPG' align='center'>
+<img src='./Analista-QA-WebJump!/result.JPG' align='center'>
 
 ### Gerando Relatórios :bar_chart:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para gerar relatórios no padrão oficial do cucumber, basta rodar o teste com o comando ```cucumber --publish```, copiar o link apresentado após a finalização do teste e colá-lo no navegador de sua preferência. O mesmo será apresentado da seguinte maneira:
 
-<img src='./cucumber_file.JPG' align='center'>
+<img src='./Analista-QA-WebJump!/cucumber_file.JPG' align='center'>
 
 ### Dificuldades :muscle:
 
