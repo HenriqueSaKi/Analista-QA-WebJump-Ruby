@@ -23,7 +23,7 @@
 ### Sobre o Projeto :book:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O projeto teve como objetivo principal apresentar à empresa WebJump, meus conhecimentos em Testes de Software Automatizados.</br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No entanto, com ele foi possível aprender e me desenvolver mais nessa área, principalmente, pois eu não possuía conhecimentos avancados na linguagem de programação Ruby e os frameworks (Cucumber e Capybara) utilizados nesse projeto.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No entanto, com ele foi possível aprender e me desenvolver mais nessa área, principalmente, pois eu não possuía conhecimentos avançados com a linguagem de programação Ruby e suas bibliotecas (Cucumber e Capybara) utilizadas nesse projeto.
 
 ### Cenários de Teste :cucumber:
 
